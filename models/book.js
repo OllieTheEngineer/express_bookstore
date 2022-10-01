@@ -42,7 +42,7 @@ class Book {
         `SELECT isbn,
                 amazon_url,
                 author,
-                language,
+                languages,
                 pages,
                 publisher,
                 title,
