@@ -67,7 +67,7 @@ router.put("/:isbn", async function (req, res, next) {
   const result = jsonSchema.validate(req.params.isbn, req.body);
   if(!result.valid) {
     console.log(result);
-    const newErrora = result.errors.map(e => e.stack);
+    const newErrors = result.errors.map(e => e.stack);
     const err = new ExpressError(newErrors, 400);
       return next(err);
   }
