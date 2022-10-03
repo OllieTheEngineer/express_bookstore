@@ -8,7 +8,7 @@
         "isbn",
         "amazon_url",
         "author",
-        "language",
+        "languages",
         "pages",
         "publisher",
         "title",
@@ -39,10 +39,10 @@
                 "Matthew Lane"
             ]
         },
-        "language": {
+        "languages": {
             "type": "string",
             "default": "",
-            "title": "The language Schema",
+            "title": "The languages Schema",
             "examples": [
                 "english"
             ]
@@ -84,7 +84,7 @@
         "isbn": "0691161518",
         "amazon_url": "http://a.co/eobPtX2",
         "author": "Matthew Lane",
-        "language": "english",
+        "languages": "english",
         "pages": 264,
         "publisher": "Princeton University Press",
         "title": "Power-Up: Unlocking the Hidden Mathematics in Video Games",
